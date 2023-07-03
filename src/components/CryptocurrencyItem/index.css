@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.currency-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 35px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.currency-logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.currency-logo {
+  margin-right: 13px;
+  width: 33px;
+}
+
+@media screen and (max-width: 768px) {
+  .currency-item {
+    padding: 0px 20px;
+  }
+
+  .currency-logo {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .currency-item {
+    padding: 0px 11px;
+    font-size: 12px;
+  }
+
+  .currency-logo {
+    width: 25px;
+    margin-right: 8px;
+  }
+}
